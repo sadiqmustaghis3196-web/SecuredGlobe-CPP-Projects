@@ -3,3 +3,10 @@ Thumbs.db
 .env
 .env.*
 *.log
+/build*/
+CMakeUserPresets.json
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.user

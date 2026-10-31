@@ -1,0 +1,156 @@
+Start testing: Oct 31 05:03 PKT
+----------------------------------------------------------
+2/3 Testing: gui_workflows
+2/3 Test: gui_workflows
+Command: "/workspace/securedglobe-build/gui_tests"
+Directory: /workspace/securedglobe-build
+"gui_workflows" start time: Oct 31 05:03 PKT
+Output:
+----------------------------------------------------------
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+********* Start testing of GuiTests *********
+Config: Using QtTest library 6.4.2, Qt 6.4.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 13.2.0), ubuntu 24.04
+PASS   : GuiTests::initTestCase()
+QWARN  : GuiTests::depositAndReceipt() This plugin does not support propagateSizeHints()
+PASS   : GuiTests::depositAndReceipt()
+QWARN  : GuiTests::transferAndLedger() This plugin does not support propagateSizeHints()
+PASS   : GuiTests::transferAndLedger()
+PASS   : GuiTests::customerKycAndAccount()
+QWARN  : GuiTests::loanApprovalAndRepayment() This plugin does not support propagateSizeHints()
+QWARN  : GuiTests::loanApprovalAndRepayment() This plugin does not support propagateSizeHints()
+PASS   : GuiTests::loanApprovalAndRepayment()
+PASS   : GuiTests::cleanupTestCase()
+Totals: 6 passed, 0 failed, 0 skipped, 0 blacklisted, 19293ms
+********* Finished testing of GuiTests *********
+<end of output>
+Test time =  19.34 sec
+----------------------------------------------------------
+Test Passed.
+"gui_workflows" end time: Oct 31 05:03 PKT
+"gui_workflows" time elapsed: 00:00:19
+----------------------------------------------------------
+
+3/3 Testing: gui_smoke
+3/3 Test: gui_smoke
+Command: "/workspace/securedglobe-build/SecuredGlobe" "--smoke-test"
+Directory: /workspace/securedglobe-build
+"gui_smoke" start time: Oct 31 05:03 PKT
+Output:
+----------------------------------------------------------
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+This plugin does not support propagateSizeHints()
+Constructed screen 4 "Dashboard"
+This plugin does not support propagateSizeHints()
+Constructed screen 5 "User profile"
+This plugin does not support propagateSizeHints()
+Constructed screen 6 "Change password"
+This plugin does not support propagateSizeHints()
+Constructed screen 7 "Customers"
+This plugin does not support propagateSizeHints()
+Constructed screen 8 "Add customer"
+This plugin does not support propagateSizeHints()
+Constructed screen 9 "Customer details"
+This plugin does not support propagateSizeHints()
+Constructed screen 10 "Edit customer"
+This plugin does not support propagateSizeHints()
+Constructed screen 11 "Customer verification / KYC"
+This plugin does not support propagateSizeHints()
+Constructed screen 12 "Customer account history"
+This plugin does not support propagateSizeHints()
+Constructed screen 13 "Bank accounts"
+This plugin does not support propagateSizeHints()
+Constructed screen 14 "Open new account"
+This plugin does not support propagateSizeHints()
+Constructed screen 15 "Account details"
+This plugin does not support propagateSizeHints()
+Constructed screen 16 "Edit account information"
+This plugin does not support propagateSizeHints()
+Constructed screen 17 "Freeze / unfreeze account"
+This plugin does not support propagateSizeHints()
+Constructed screen 18 "Close account"
+This plugin does not support propagateSizeHints()
+Constructed screen 19 "All transactions"
+This plugin does not support propagateSizeHints()
+Constructed screen 20 "Cash deposit"
+This plugin does not support propagateSizeHints()
+Constructed screen 21 "Cash withdrawal"
+This plugin does not support propagateSizeHints()
+Constructed screen 22 "Account transfer"
+This plugin does not support propagateSizeHints()
+Constructed screen 23 "Transaction details"
+This plugin does not support propagateSizeHints()
+Constructed screen 24 "Transaction history & filters"
+This plugin does not support propagateSizeHints()
+Constructed screen 25 "Transaction receipt"
+This plugin does not support propagateSizeHints()
+Constructed screen 26 "Loan applications"
+This plugin does not support propagateSizeHints()
+Constructed screen 27 "Apply for loan"
+This plugin does not support propagateSizeHints()
+Constructed screen 28 "Loan approval / rejection"
+This plugin does not support propagateSizeHints()
+Constructed screen 29 "Loan repayment"
+This plugin does not support propagateSizeHints()
+Constructed screen 30 "Loan details & schedule"
+This plugin does not support propagateSizeHints()
+Constructed screen 31 "Debit card management"
+This plugin does not support propagateSizeHints()
+Constructed screen 32 "Issue / block card"
+This plugin does not support propagateSizeHints()
+Constructed screen 33 "Employee management"
+This plugin does not support propagateSizeHints()
+Constructed screen 34 "Branch management"
+This plugin does not support propagateSizeHints()
+Constructed screen 35 "Financial reports"
+This plugin does not support propagateSizeHints()
+Constructed screen 36 "Customer & account reports"
+This plugin does not support propagateSizeHints()
+Constructed screen 37 "Transaction analytics"
+This plugin does not support propagateSizeHints()
+Constructed screen 38 "User & role management"
+This plugin does not support propagateSizeHints()
+Constructed screen 39 "Audit logs"
+This plugin does not support propagateSizeHints()
+Constructed screen 40 "Settings & database backup"
+<end of output>
+Test time =  10.69 sec
+----------------------------------------------------------
+Test Passed.
+"gui_smoke" end time: Oct 31 05:03 PKT
+"gui_smoke" time elapsed: 00:00:10
+----------------------------------------------------------
+
+1/3 Testing: banking_services
+1/3 Test: banking_services
+Command: "/workspace/securedglobe-build/banking_tests"
+Directory: /workspace/securedglobe-build
+"banking_services" start time: Oct 31 05:03 PKT
+Output:
+----------------------------------------------------------
+********* Start testing of BankingTests *********
+Config: Using QtTest library 6.4.2, Qt 6.4.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 13.2.0), ubuntu 24.04
+PASS   : BankingTests::initTestCase()
+PASS   : BankingTests::seedAndMoney()
+PASS   : BankingTests::passwordHashing()
+PASS   : BankingTests::loginAndPasswordChange()
+PASS   : BankingTests::lockout()
+PASS   : BankingTests::rbacAndOwnership()
+PASS   : BankingTests::customerAndAccount()
+PASS   : BankingTests::cashAndFrozen()
+PASS   : BankingTests::transferAtomicAndDuplicate()
+PASS   : BankingTests::loansAndRepayments()
+PASS   : BankingTests::closureCardsAndBackup()
+PASS   : BankingTests::persistenceAuditAndFilters()
+PASS   : BankingTests::adminUsersAndReset()
+PASS   : BankingTests::cleanupTestCase()
+Totals: 14 passed, 0 failed, 0 skipped, 0 blacklisted, 68921ms
+********* Finished testing of BankingTests *********
+<end of output>
+Test time =  68.94 sec
+----------------------------------------------------------
+Test Passed.
+"banking_services" end time: Oct 31 05:04 PKT
+"banking_services" time elapsed: 00:01:08
+----------------------------------------------------------
+
+End testing: Oct 31 05:04 PKT
